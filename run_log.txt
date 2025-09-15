@@ -1,0 +1,34 @@
+🔔 Logging all output also to C:\Users\shira\OneDrive\שולחן העבודה\Big Data\final\run_log.txt
+📊 Loading Book_Ratings...
+🔄 Creating mappings (user/item)...
+✅ Ratings rows: 394597, Unique users: 77231, Unique items: 169607
+🔀 Creating per-user folds with k=5, min_ratings=7 ...
+
+>> 평가 params rank=20, reg=0.7
+  Fold 0: test_before=51956, test_after_filter=32404, train_rows=229382
+   ✅ Fold 0 RMSE=1.9528
+  Fold 1: test_before=60456, test_after_filter=37611, train_rows=220882
+   ✅ Fold 1 RMSE=1.9621
+  Fold 2: test_before=58837, test_after_filter=36599, train_rows=222501
+   ✅ Fold 2 RMSE=1.9596
+  Fold 3: test_before=56167, test_after_filter=35105, train_rows=225171
+   ✅ Fold 3 RMSE=1.9508
+  Fold 4: test_before=53922, test_after_filter=33697, train_rows=227416
+   ✅ Fold 4 RMSE=1.9516
+  >>> Params rank=20, reg=0.7 -> Avg RMSE = 1.9554
+
+🏆 Best params: {'rank': 30, 'regParam': 0.2}  Best CV RMSE: 1.9553937624430016
+Final split: train=317366, test=77231
+
+📈 Final Model Performance:
+ Train RMSE: 0.3997
+ Test RMSE: 2.6138
+✅ Mapped & model saved
+
+🔮 Sample recommendations:
+User 272 -> ['0809281228', '8422616335', '8447300013', '0590467158', '0877732248']
+User 300 -> ['0375756884', '0062510266', '0028626923', '0684824752', '1582460507']
+User 376 -> ['0811211282', '0877732248', '3150094445', '9722321684', '3423303670']
+User 387 -> ['0877732248', '0809281228', '1901881555', '3570202747', '0441007317']
+User 440 -> ['0684824752', '0820313386', '1592865879', '9726624649', '9722320556']
+✅ Spark stopped

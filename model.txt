@@ -1,0 +1,49 @@
+# Team: MyTeam
+# Date: 2025-09-11
+# Database name: books_no_outliers.db
+5) link to model.rdata <URL string>
+https://drive.google.com/drive/folders/ujovn4yKdLIVg0uQO-E02NPCjSHBl1
+
+6.a) RMSE of the full model UB 0.77, IB 0.82
+6.b) histogram of RMSE
+RMSE
+      N.UBCF   N.IBCF
+0.00   0     0
+0.25   0     0
+0.50   0     0
+0.75   0     0
+1.00   1186     1186
+1.25   0     0
+1.50   0     0
+1.75   0     0
+2.00   2043     2043
+2.25   0     0
+
+6.c) Top-10 recommendations
+UBCF
+user
+       book1  book2  book3  book4  book5  book6  book7  book8  book9  book10
+1331         A Book of On  Trouble Man   Motin del Bo  Big Ice  Essential Wh  1984 (Spanis  The Heretic   Love Matters  Loretta Lynn  Access Sydne
+257          Heat: The Fi  Gesammelte P  Der Schimmel  Lehmanns Erz  The New Poet  The Inventio  Travesties  Typhoon and   Arcadia  Far from the
+1377         Anne Frank:   The Da Vinci  A Thousand A  Icy Sparks  Shopgirl  The Tao of P  Divine Secre  Little Altar  The Amazing   The Nanny Di
+618          Who Moved My  Kiss the Gir  Naked  Jack &amp; J  Chicken Soup  The Kitchen   The Rainmake  The Vampire   The Da Vinci  Icy Sparks
+392          Desaparecido  Una casa en   El dia que e  Les llengÃÂ  Loretta Lynn  Wuthering He  Brain Storm  In My Father  La casa de B  Mercy (G K H
+1442         Midnight in   The Giver (2  Neverwhere  The King of   Dragonfly in  She's Come U  The God of S  Memoirs of a  Jack &amp; J  A Lesson Bef
+1395         The Perfect   Confessions   Me Talk Pret  Girl with a   Angels &amp;  Little Altar  The Tao of P  The Da Vinci  Bleachers  The Poisonwo
+476          Antipodes 10  Your Word Is  Sammy Keyes   Unter die De  Die letzte Z  Relativity:   The Clue of   The Adventur  A Leg to Sta  Obres comple
+244          Motin del Bo  SPACE TIME M  Big Ice  In My Father  Good King Ha  Wuthering He  Night Riders  The Best Sho  Las Olas (Fa  The Enchante
+1664         SHIPPING NEW  The Amazing   The Hitchhik  Little Altar  The Giver (2  The Two Towe  The Secret L  The Rescue  The Beach Ho  Nickel and D
+
+IBCF
+user
+       book1  book2  book3  book4  book5  book6  book7  book8  book9  book10
+1331         A Book of On  Trouble Man   Motin del Bo  Big Ice  Essential Wh  1984 (Spanis  The Heretic   Love Matters  Loretta Lynn  Access Sydne
+257          Heat: The Fi  Gesammelte P  Der Schimmel  Lehmanns Erz  The New Poet  The Inventio  Travesties  Typhoon and   Arcadia  Far from the
+1377         Anne Frank:   The Da Vinci  A Thousand A  Icy Sparks  Shopgirl  The Tao of P  Divine Secre  Little Altar  The Amazing   The Nanny Di
+618          Who Moved My  Kiss the Gir  Naked  Jack &amp; J  Chicken Soup  The Kitchen   The Rainmake  The Vampire   The Da Vinci  Icy Sparks
+392          Desaparecido  Una casa en   El dia que e  Les llengÃÂ  Loretta Lynn  Wuthering He  Brain Storm  In My Father  La casa de B  Mercy (G K H
+1442         Midnight in   The Giver (2  Neverwhere  The King of   Dragonfly in  She's Come U  The God of S  Memoirs of a  Jack &amp; J  A Lesson Bef
+1395         The Perfect   Confessions   Me Talk Pret  Girl with a   Angels &amp;  Little Altar  The Tao of P  The Da Vinci  Bleachers  The Poisonwo
+476          Antipodes 10  Your Word Is  Sammy Keyes   Unter die De  Die letzte Z  Relativity:   The Clue of   The Adventur  A Leg to Sta  Obres comple
+244          Motin del Bo  SPACE TIME M  Big Ice  In My Father  Good King Ha  Wuthering He  Night Riders  The Best Sho  Las Olas (Fa  The Enchante
+1664         SHIPPING NEW  The Amazing   The Hitchhik  Little Altar  The Giver (2  The Two Towe  The Secret L  The Rescue  The Beach Ho  Nickel and D
